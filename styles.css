@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to bottom, #f37335, #fdc830);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #f37335;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    color: #ffffff;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100px;
+    margin: 30px;
+}
+
+#countdown {
+    color: #ffffff;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 120px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#btn {
+    width: 310px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    background-color: rgb(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#min, #sec {
+    border: 2px solid #ffffff;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: 'Fredericka the Great', cursive;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+@media all and (max-width: 540px) {
+    #header {
+        font-size: 70px;
+    }
+    
+    #countdown {
+        font-size: 90px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    #header {
+        font-size: 55px;
+    }
+    
+    #countdown {
+        font-size: 80px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    #header {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    #header {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    #header {
+        font-size: 35px;
+    }
+    
+    #countdown {
+        font-size: 65px;
+    }
+
+    #btn {
+        width: 224px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    #min, #sec {
+        padding: 5px;
+        font-size: 10px;
+    }
+}

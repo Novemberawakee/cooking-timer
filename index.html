@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data: , ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="done">
+        <source src="done.mp3">
+    </audio>
+
+    <div id="container">
+        <p id="header">Let's cook!</p>
+        <p id="countdown">00:00</p>
+        <div id="input">
+            <input type="number" step="1" min="0" placeholder="min" id="min">
+            <input type="number" step="1" min="0" placeholder="sec" id="sec">
+        </div>
+        <button id="btn">START</button>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
